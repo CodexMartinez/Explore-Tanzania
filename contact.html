@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Explore Tanzania</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="parks.html">National Parks</a></li>
+        <li><a href="attractions.html">Attractions</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Contact Us</h1>
+      <p>Have questions or want to plan your trip? Get in touch!</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>Send a Message</h2>
+    <form action="submit_contact.php" method="POST" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>Our Office</h3>
+      <p>
+        Explore Tanzania Travel Co.<br />
+        P.O. Box 12345, Arusha, Tanzania<br />
+        Phone: +255 789 000 000<br />
+        Email: info@exploretanzania.co.tz
+      </p>
+    </div>
+
+    <div class="social-media">
+      <h3>Follow Us</h3>
+      <ul class="social-links">
+        <li><a href="https://facebook.com/exploretanzania" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        <li><a href="https://twitter.com/exploretanzania" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="https://instagram.com/exploretanzania" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><a href="https://youtube.com/exploretanzania" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Explore Tanzania. We're here to guide your adventure.</p>
+    <footer>
+  <p>&copy; 2025 Explore Tanzania. Capturing the spirit of adventure.</p>
+  <div class="social-icons">
+    <a href="https://facebook.com/yourpage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</footer>
+
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
